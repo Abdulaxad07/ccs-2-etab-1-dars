@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* .box{
+    width: 300px;
+    height: 500px;
+    background-color: black; 
+     
+} */
+
+.parent {
+    width: 800px;
+    height: 400px;
+    background-color: brown;
+    display: flex;
+    /* flex end va flex start tagiga va yuqoriga joylaydi   */
+    align-items: center;
+    justify-content: space-between/* space - between  bu 1 element va oxirgi elementni ikki chekkaga yopishtiradi va qolganlarini oralogi bir hil boladi */
+    ;
+    /* spase- eveny bu elementlarni orasini bir xilda ochib beradi */
+    /* spase-around bu elementlarga har biriga birhil margin beradi*/
+}
+
+.child {
+    width: 300px;
+    height: 300px;
+    background-color: goldenrod;
+    margin: 0px 30px;
+}
+
+.parent_flex {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    background-color: gray;
+}
+
+.flex_item {
+    flex: 1;
+    /* bu elementga xohlagancha joy berish ucun ishlatiladi */
+    background-color: fuchsia;
+    /*  flex 1 ishlashi uchun ota elementga display flex va width berish kk*/
+}
+
+.parent_direction {
+    width: 800px;
+    height: 800px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* flex_direction:column ;  bolganda align-items va justify contentni teskari tarzda ishlaydi  */
+    /* reverse sozi bu ichidagi elementlarni teskari tartibda joylashtiradi  */
+}
+
+.direction_item {
+    width: 250px;
+    height: 250px;
+    background-color: hotpink;
+    margin: 20px;
+}
+
+.flex_height {
+    width: 100%;
+    height: 100px;
+    background-color: indigo;
+    display: flex;
+    align-items: center;
+}
+
+.height_btn {
+    /* button kengaytirishni 1 -usuli */
+    /* width: 150px;
+    height: 300px; */
+    /* button kengaytirishni 2-usuli */
+    /* padding: 20px 40px; */
+    max-height: 30px;
+    /* maximum = max=> max-height eng yuqori balandlik hisoblanadi  */
+}

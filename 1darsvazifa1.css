@@ -1,0 +1,151 @@
+ *{
+     margin: 0;
+    
+
+ }
+ body{
+     height: 100vh;
+
+
+ }
+ .prajekt{
+     display: ;
+     height: 100%;
+     width: 100%;
+
+ }
+ .informetion{
+     height: 15%;
+     width: 100%;
+     background-color: #fff;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+ }
+ .img{
+    
+     justify-content: center;
+     height: 85%;
+     width: 100%; 
+     background-size: cover;
+     align-items: center;
+    display: flex;
+     background-image:url(https://wallpapercave.com/wp/wp6705749.jpg);
+     font-family: sans-serif;
+ }
+ .logo{   
+    flex: 1;
+      margin-left: 100px;
+ }
+ .menu>ul{ 
+     display: flex;
+     list-style-type: none;
+     margin:10px ;
+     margin-right: 90px;
+
+
+ }
+ .menu>ul>li{
+    margin: 15px;
+ }
+ .tic1{
+     border-radius: 15px;
+     width:100px; 
+     height: 25px;
+     border: 1px solid black ;
+     background-color: #fff;
+     margin-top: -10px;
+
+    
+    }
+    .tic2{
+        border-radius: 15px;
+     width:80px; 
+     height: 25px;
+     border: 1px solid black ;
+     background-color: green;
+     margin-top: -10px;
+     color: #fff;
+    }
+    .with{
+    color: rgb(226, 217, 178);
+    font-size: 60px;
+    text-shadow: 0px 0px 15px gray;
+    margin-left: 90px;}
+
+.comes{
+    margin-left: 0px;
+}
+.make{
+    margin-top: px;
+    margin-left: 90px;
+    color: honeydew;
+    text-shadow: 0px 0px 5px gray;
+    font-weight: 400;
+}
+.button10{
+margin-top: px;
+margin-left: 240px;
+padding-top: 20px
+}
+.learn{
+    border-radius: 20px;
+    border: 1px solid honeydew;
+    background-color:  transparent;
+    width: 120px;
+    height: 35px;
+    
+       color: #fff;
+}
+.get{
+    border: 1px solid transparent;
+    background-color: rgb(21, 224, 65);
+    border-radius: 15px;
+    width: 120px;
+    height: 34px;
+    margin-left: 20px; 
+    color: #fff;
+ 
+}
+/* .b{
+    color: honeydew;
+}.with{
+    color: cornsilk;
+    font-size: 60px;
+    text-shadow: 0px 0px 15px gray;
+    margin-left: px;
+    margin-top: px;
+}
+.comes{
+    margin-left: px;
+}
+.make{
+    margin-top: px;
+    margin-left: px;
+    color: honeydew;
+    text-shadow: 0px 0px 10px gray;
+}
+.button10{
+margin-top: px;
+margin-left: px;
+padding-top: px
+}
+.learn{
+    border-radius: 15px;
+    border: 1px solid honeydew;
+    background-color:  transparent;
+    width: px;
+    height: px;
+}
+.get{
+    border: 1px solid transparent;
+    background-color: rgb(70, 163, 163);
+    border-radius: 15px;
+    width: 120px;
+    height: 30px;
+    margin-left: px;
+}
+.b{
+    color: honeydew;
+}
+  */

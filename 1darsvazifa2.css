@@ -1,0 +1,54 @@
+*{margin: 0;}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.prajekt{
+  width: 900px;
+  height: 550px;
+  background-color: gainsboro;
+  display: flex;
+  align-items:inherit;
+  justify-content: space-evenly;
+  box-shadow: 0px 5px 5px 5px gray ;
+}
+.img1{
+    width: 350px;
+    height: 450px;
+    background-color: #fff;
+    padding: 0px 20px 20px 20px ;
+}
+.img2{
+    width: 350px;
+    height: 450px;
+    background-color: #fff;
+    padding: 0px 20px 20px 20px ;
+}
+.a{
+    width: 350px;
+    height: 350px;
+}
+h2{
+    margin: 20px 0px 15px 0px;
+    font-family: sans-serif;
+}
+i{
+    color: gold;
+    
+}
+b{ 
+    color: rgb(14, 175, 154);
+    font-family: sans-serif;
+    font-size: 16px;
+
+}
+ol{
+    margin-top: -20px;
+    margin-left: 203px;
+}
+ul{
+    margin-top: -20px;
+    margin-left: 203px;
+}
